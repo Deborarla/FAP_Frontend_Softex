@@ -1,0 +1,32 @@
+Algoritmo "Bubble Sort"
+
+Var
+i, n, aux: inteiro
+v:vetor[1..10] de inteiro
+
+Inicio
+ para i de 1 ate 10 faca
+      escreva("Adicione um número!")
+      leia(v[i])
+ fimpara
+ escreva("Esses são o números digitados")
+        para i de 1 ate 10 faca
+              escreva(v[i])
+        fimpara
+enquanto (n=0) faca
+n<- 1
+para i de 1 ate 9 faca
+     se (v[i]>v[i+1]) entao
+        aux <- v[i]
+        v[i] <- v[i+1]
+        v[i+1] <- aux
+        i<-i+1
+        n <-0
+     fimse
+fimpara
+fimenquanto
+ escreva ("Os números ordenados são")
+             para i de 1 ate 10 faca
+                  escreva(v[i])
+             fimpara
+Fimalgoritmo
