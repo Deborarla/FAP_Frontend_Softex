@@ -1,0 +1,35 @@
+Algoritmo "Insertion Sort"
+
+Var
+i, n, aux: inteiro
+v:vetor[1..30] de inteiro
+
+Inicio
+ para i de 1 ate 30 faca
+      escreva("Adicione um número!")
+      leia(v[i])
+ fimpara
+ escreva("Esses são o números digitados")
+        para i de 1 ate 30 faca
+              escreva(v[i])
+        fimpara
+enquanto (n=0) faca
+n<- 1
+para i de 2 ate 30 faca
+     aux <- v[i]
+     n <- i-1
+     enquanto aux < v[n] faca
+          v[n+1] <- v[n]
+          n <- n-1
+            se n=0 entao
+            interrompa
+            fimse
+     fimenquanto
+     v[n+1] <- aux
+fimpara
+fimenquanto
+ escreva ("Os números ordenados são")
+             para i de 1 ate 30 faca
+                  escreva(v[i])
+             fimpara
+Fimalgoritmo
