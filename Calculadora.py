@@ -18,7 +18,6 @@ def divisao():
     y = float(input("Segundo numero: "))
     print("Divisao: ",x/y)
     
-print("0. Sair")
 print("1. Somar")
 print("2. Subtrair")
 print("3. Multiplicação")
