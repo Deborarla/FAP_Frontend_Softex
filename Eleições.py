@@ -22,7 +22,7 @@ while cont > 0:
                 conf.upper()
 		confirma = conf.upper()
 		#armazenamento de votos
-		if conf == "S":
+		if confirma == "S":
 			if voto == urna.candidato_x.value:
 				votox += 1
 			elif voto == urna.candidato_y.value:
