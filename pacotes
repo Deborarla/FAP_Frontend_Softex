@@ -1,0 +1,63 @@
+#pacote RH
+package net.plataforma.rh;
+
+public class dp
+{
+    public static void main(String[] args) {
+        String nome;
+        String pis;
+        Double salario;
+    }
+    public String getNome(){
+        return nome;
+    }
+        public String getpis(){
+        return pis;
+    }
+        public String getsalario(){
+        return salario;
+    }
+       public String setNome(){
+        return nome;
+    }
+        public String setpis(){
+        return pis;
+    }
+        public String setsalario(){
+        return salario;
+    }
+    
+    
+}
+#Pacote compras
+
+package net.plataforma.compras;
+
+#Classe
+public class servico
+{
+    public static void main(String[] args) {
+        String fornecedor;
+        String cnpj;
+        Double end;
+    }
+    public String getFornecedor(){
+        return forncedor;
+    }
+        public String getCnpj(){
+        return cnpj;
+    }
+        public String getEndereco(){
+        return endereco;
+    }
+       public String setFornecedor(){
+        return fornecedor;
+    }
+        public String setCnpj(){
+        return cnpj;
+    }
+        public String setEndereco(){
+        return endereco;
+    }
+    
+}
