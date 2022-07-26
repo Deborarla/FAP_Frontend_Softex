@@ -19,6 +19,8 @@ while cont > 0:
 		cont -= 1
 		conf = str(input("Deseja confirmar seu voto? [S/N]"))
 		print('-=' * 20)
+                conf.upper()
+		confirma = conf.upper()
 		#armazenamento de votos
 		if conf == "S":
 			if voto == urna.candidato_x.value:
