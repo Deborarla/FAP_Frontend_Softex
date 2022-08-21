@@ -1,0 +1,27 @@
+<script>
+    var num1 = parseInt(prompt ("Digite o primeiro número"))
+    var operador = prompt ("Digite o operador")
+    var num2 = parseInt(prompt ("Digite o segundo número"))
+    
+    function calc(num1, num2, operador){
+        if (operador === "+"){
+            return num1 ++ num2
+        }
+        else if (operador === "-"){
+            return num1 - num2
+        } 
+        else if (operador === "*"){
+            return num1 * num2
+        }
+        else if (operador === "/"){
+            return = num1 / num2
+            if (operador === "/"){
+                return = num1 % num2
+            }
+        }
+        else {
+            document.write('Digite um operador válido')   
+        }
+    }
+    document.write(calc(num1,num2,operador));
+</script>
