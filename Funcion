@@ -1,0 +1,16 @@
+var num1 = 10
+var num2 = 5
+
+function mostra() {
+  console.log('O primeiro número é o', num1, 'e o segundo número é o', num2)
+}
+
+const soma = (num1, num2) => num1 + num2
+
+function dobro(a, b) {
+  valor = soma(num1, num2)
+  return valor * 2
+}
+
+console.log(dobro())
+console.log(mostra())
