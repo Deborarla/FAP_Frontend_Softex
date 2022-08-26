@@ -32,7 +32,7 @@ class bco {
     }
   }
   
-  //instância
+  //instanciando o objeto
   const banco = new bco(0001, 097000, 'poupança', 100)
   deposita100 = banco.deposito(100)
   console.log(banco.versaldo())
